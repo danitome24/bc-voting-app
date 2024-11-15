@@ -1,0 +1,30 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "fs-extra": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.2",
+    "next": "13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solc": "^0.8.9",
+    "web3": "^1.10.0"
+  }
+}
